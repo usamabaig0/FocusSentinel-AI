@@ -1,10 +1,13 @@
 import urllib.request, json, mimetypes, os, sys
 from pathlib import Path
 
-TOKEN = Path('~/.git-credentials').read_text().split('ghp_')[1].split('@')[0]
-TOKEN = 'ghp_' + TOKEN.strip()
-REPO = 'ononymuos/FocusSentinel-AI'
-TAG = 'v1.1.0'
+TOKEN = os.getenv('GITHUB_TOKEN')
+if not TOKEN:
+    print("[!] Error: GITHUB_TOKEN environment variable is not set. Please export GITHUB_TOKEN=your_token")
+    sys.exit(1)
+
+REPO = os.getenv('GITHUB_REPOSITORY', 'usamabaig0/FocusSentinel-AI')
+TAG = os.getenv('RELEASE_TAG', 'v1.1.0')
 
 # 1. Check if release already exists or create new
 url = f'https://api.github.com/repos/{REPO}/releases'
@@ -58,10 +61,11 @@ release_id = release['id']
 upload_url_base = f'https://uploads.github.com/repos/{REPO}/releases/{release_id}/assets'
 
 # 2. Upload assets
+assets_dir = Path(os.getenv('RELEASE_ASSETS_DIR', 'release_assets'))
 assets_to_upload = [
-    Path('release_assets/FocusSentinel_Setup_v1.1.0.exe'),
-    Path('release_assets/FocusSentinel-v1.1.0-linux.tar.gz'),
-    Path('release_assets/FocusSentinel-v1.1.0-macos.tar.gz'),
+    assets_dir / 'FocusSentinel_Setup_v1.1.0.exe',
+    assets_dir / 'FocusSentinel-v1.1.0-linux.tar.gz',
+    assets_dir / 'FocusSentinel-v1.1.0-macos.tar.gz',
 ]
 
 # Get current release assets to delete if re-uploading
