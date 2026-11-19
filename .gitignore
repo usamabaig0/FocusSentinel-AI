@@ -12,3 +12,4 @@ update_direct_shortcut.ps1
 update_icon.ps1
 update_silent_shortcut.ps1
 create_shortcut.ps1
+/face_landmarker.task
