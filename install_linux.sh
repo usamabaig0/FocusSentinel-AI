@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # FocusSentinel AI - Linux One-Click Installer & Desktop Integration
-# Author: Usama Baig (https://github.com/ononymuos/FocusSentinel-AI)
+# Author: Usama Baig (https://github.com/usamabaig0/FocusSentinel-AI)
 # =============================================================================
 set -euo pipefail
 

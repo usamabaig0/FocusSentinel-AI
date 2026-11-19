@@ -1,8 +1,8 @@
 # FocusSentinel AI
 
-[![Release](https://img.shields.io/github/v/release/ononymuos/FocusSentinel-AI?style=for-the-badge&color=00e5ff)](https://github.com/ononymuos/FocusSentinel-AI/releases)
+[![Release](https://img.shields.io/github/v/release/usamabaig0/FocusSentinel-AI?style=for-the-badge&color=00e5ff)](https://github.com/usamabaig0/FocusSentinel-AI/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge)](https://github.com/ononymuos/FocusSentinel-AI)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-blue?style=for-the-badge)](https://github.com/usamabaig0/FocusSentinel-AI)
 
 Computer vision focus and study session monitor built with Python, OpenCV, MediaPipe, and YOLOv8.
 
@@ -18,7 +18,7 @@ Choose your operating system below for copy-paste installation commands:
 
 #### Direct APK Install
 Download and install the pre-compiled Android APK package:
-- **Direct Download**: [FocusSentinel-AI-v1.1.0.apk (GitHub Release)](https://github.com/ononymuos/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel-AI-v1.1.0.apk)
+- **Direct Download**: [FocusSentinel-AI-v1.1.0.apk (GitHub Release)](https://github.com/usamabaig0/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel-AI-v1.1.0.apk)
 
 #### Building Android App from Source
 ```bash
@@ -30,17 +30,17 @@ cd android
 ### 🪟 Windows Installation
 
 #### Option A: One-Click Standalone Installer (Recommended — No Python Required)
-Download and run the official Windows setup wizard from [GitHub Releases](https://github.com/ononymuos/FocusSentinel-AI/releases/latest):
+Download and run the official Windows setup wizard from [GitHub Releases](https://github.com/usamabaig0/FocusSentinel-AI/releases/latest):
 
 ```powershell
 # PowerShell: Download & Run Installer
-Invoke-WebRequest -Uri "https://github.com/ononymuos/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel_Setup_v1.1.0.exe" -OutFile "FocusSentinel_Setup_v1.1.0.exe"
+Invoke-WebRequest -Uri "https://github.com/usamabaig0/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel_Setup_v1.1.0.exe" -OutFile "FocusSentinel_Setup_v1.1.0.exe"
 Start-Process ".\FocusSentinel_Setup_v1.1.0.exe"
 ```
 
 ```cmd
 :: Command Prompt (CMD): Download & Run Installer
-curl -LO https://github.com/ononymuos/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel_Setup_v1.1.0.exe
+curl -LO https://github.com/usamabaig0/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel_Setup_v1.1.0.exe
 start FocusSentinel_Setup_v1.1.0.exe
 ```
 
@@ -48,7 +48,7 @@ start FocusSentinel_Setup_v1.1.0.exe
 
 ```powershell
 # PowerShell
-git clone https://github.com/ononymuos/FocusSentinel-AI.git
+git clone https://github.com/usamabaig0/FocusSentinel-AI.git
 cd FocusSentinel-AI
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -58,7 +58,7 @@ python main.py
 
 ```cmd
 :: Command Prompt (CMD)
-git clone https://github.com/ononymuos/FocusSentinel-AI.git
+git clone https://github.com/usamabaig0/FocusSentinel-AI.git
 cd FocusSentinel-AI
 python -m venv .venv
 call .venv\Scripts\activate.bat
@@ -74,12 +74,12 @@ Run the one-line terminal installer to install FocusSentinel AI, configure a ded
 
 ```bash
 # One-click automated setup
-curl -sSL https://raw.githubusercontent.com/ononymuos/FocusSentinel-AI/main/install_linux.sh | bash
+curl -sSL https://raw.githubusercontent.com/usamabaig0/FocusSentinel-AI/main/install_linux.sh | bash
 ```
 
 *Or clone and run manually:*
 ```bash
-git clone https://github.com/ononymuos/FocusSentinel-AI.git
+git clone https://github.com/usamabaig0/FocusSentinel-AI.git
 cd FocusSentinel-AI
 chmod +x install_linux.sh
 ./install_linux.sh
@@ -93,12 +93,12 @@ To start: launch **FocusSentinel AI** from your application menu or run `~/.loca
 
 ```bash
 # One-click automated setup
-curl -sSL https://raw.githubusercontent.com/ononymuos/FocusSentinel-AI/main/install_macos.sh | bash
+curl -sSL https://raw.githubusercontent.com/usamabaig0/FocusSentinel-AI/main/install_macos.sh | bash
 ```
 
 *Or clone and run manually:*
 ```bash
-git clone https://github.com/ononymuos/FocusSentinel-AI.git
+git clone https://github.com/usamabaig0/FocusSentinel-AI.git
 cd FocusSentinel-AI
 chmod +x install_macos.sh
 ./install_macos.sh
@@ -120,15 +120,15 @@ FocusSentinel AI includes an in-app GUI control center built with CustomTkinter:
 
 ---
 
-- **Author / Creator**: [Usama Baig](https://github.com/ononymuos)
-- **Repository**: [https://github.com/ononymuos/FocusSentinel-AI](https://github.com/ononymuos/FocusSentinel-AI)
+- **Author / Creator**: [Usama Baig](https://github.com/usamabaig0)
+- **Repository**: [https://github.com/usamabaig0/FocusSentinel-AI](https://github.com/usamabaig0/FocusSentinel-AI)
 - **LinkedIn**: [Usama Baig](https://www.linkedin.com/in/usama-baig-53b828385)
 
 ### Giving Credit
 If you use, modify, reference, or embed FocusSentinel AI in your research, commercial applications, or open-source projects, please provide attribution by including the copyright notice and linking back to the original repository:
 
 ```text
-FocusSentinel AI by Usama Baig (https://github.com/ononymuos/FocusSentinel-AI)
+FocusSentinel AI by Usama Baig (https://github.com/usamabaig0/FocusSentinel-AI)
 Copyright (c) 2026 Usama Baig. All rights reserved.
 ```
 
@@ -172,7 +172,7 @@ FocusSentinel-AI/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ononymuos/FocusSentinel-AI.git
+git clone https://github.com/usamabaig0/FocusSentinel-AI.git
 cd FocusSentinel-AI
 ```
 

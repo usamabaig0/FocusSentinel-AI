@@ -35,9 +35,9 @@ FocusSentinel AI is a high-performance computer vision focus and study session m
 - **🎥 Universal Virtual Camera Support**: Enhanced camera driver with automatic multi-backend fallback (`DirectShow` / `Media Foundation` / `Default`) for seamless integration with Camo, OBS Virtual Cam, and external webcams.
 
 ### 📦 Multi-Platform Downloads:
-- **🪟 Windows**: Standalone Installer: [`FocusSentinel_Setup_v1.1.0.exe`](https://github.com/ononymuos/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel_Setup_v1.1.0.exe)
-- **🐧 Linux**: Bundle Archive: [`FocusSentinel-v1.1.0-linux.tar.gz`](https://github.com/ononymuos/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel-v1.1.0-linux.tar.gz) *(or install via `curl -sSL https://raw.githubusercontent.com/ononymuos/FocusSentinel-AI/main/install_linux.sh | bash`)*
-- **🍎 macOS**: Bundle Archive: [`FocusSentinel-v1.1.0-macos.tar.gz`](https://github.com/ononymuos/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel-v1.1.0-macos.tar.gz) *(or install via `curl -sSL https://raw.githubusercontent.com/ononymuos/FocusSentinel-AI/main/install_macos.sh | bash`)*
+- **🪟 Windows**: Standalone Installer: [`FocusSentinel_Setup_v1.1.0.exe`](https://github.com/usamabaig0/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel_Setup_v1.1.0.exe)
+- **🐧 Linux**: Bundle Archive: [`FocusSentinel-v1.1.0-linux.tar.gz`](https://github.com/usamabaig0/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel-v1.1.0-linux.tar.gz) *(or install via `curl -sSL https://raw.githubusercontent.com/usamabaig0/FocusSentinel-AI/main/install_linux.sh | bash`)*
+- **🍎 macOS**: Bundle Archive: [`FocusSentinel-v1.1.0-macos.tar.gz`](https://github.com/usamabaig0/FocusSentinel-AI/releases/download/v1.1.0/FocusSentinel-v1.1.0-macos.tar.gz) *(or install via `curl -sSL https://raw.githubusercontent.com/usamabaig0/FocusSentinel-AI/main/install_macos.sh | bash`)*
 """
 
 if not existing:

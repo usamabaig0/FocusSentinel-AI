@@ -11,7 +11,7 @@ setup(
     description="Intelligent Vision-based Micro-Sleep & Attention Proctoring Engine",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ononymuos/FocusSentinel-AI",
+    url="https://github.com/usamabaig0/FocusSentinel-AI",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -28,6 +28,8 @@ setup(
         "pygame>=2.5.0",
         "mediapipe>=0.10.0",
         "numpy>=1.24.0",
+        "customtkinter>=5.2.0",
+        "Pillow>=10.0.0",
     ],
     entry_points={
         "console_scripts": [

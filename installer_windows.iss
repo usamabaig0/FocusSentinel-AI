@@ -1,10 +1,10 @@
 ; FocusSentinel AI - Inno Setup Script
-; Author: Usama Baig (https://github.com/ononymuos/FocusSentinel-AI)
+; Author: Usama Baig (https://github.com/usamabaig0/FocusSentinel-AI)
 
 #define MyAppName "FocusSentinel AI"
 #define MyAppVersion "1.1.0"
 #define MyAppPublisher "Usama Baig"
-#define MyAppURL "https://github.com/ononymuos/FocusSentinel-AI"
+#define MyAppURL "https://github.com/usamabaig0/FocusSentinel-AI"
 #define MyAppExeName "FocusSentinel.exe"
 
 [Setup]
